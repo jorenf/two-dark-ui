@@ -1,1 +1,1 @@
-See https://github.com/atom/one-light-ui/releases
+See https://github.com/emlai/two-light-ui/releases

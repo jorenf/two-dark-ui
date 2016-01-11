@@ -1,14 +1,14 @@
 {
-  "name": "one-light-ui",
+  "name": "two-light-ui",
   "theme": "ui",
-  "version": "1.1.9",
-  "description": "Atom One light UI theme",
+  "version": "1.0.0",
+  "description": "Two light UI theme",
   "keywords": [
     "light",
     "adaptive",
     "ui"
   ],
-  "repository": "https://github.com/atom/one-light-ui.git",
+  "repository": "https://github.com/emlai/two-light-ui.git",
   "license": "MIT",
   "main": "lib/main",
   "engines": {
