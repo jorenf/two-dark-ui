@@ -91,21 +91,23 @@
       height: @ui-tab-height;
       line-height: @ui-tab-height;
       text-align: center;
-      transform: scale(0);
-      transition: transform .08s;
-      &:hover {
-        opacity: .7;
-      }
-      &:active {
-        opacity: .4;
-      }
+      opacity: 0;
+      transition: opacity .08s;
       &::before {
         font-size: inherit;
       }
     }
     &:hover .close-icon {
-      transform: scale(1);
+      opacity: 1;
       transition-duration: .16s;
+      &:hover {
+        opacity: .7;
+        transition-duration: 0s;
+      }
+      &:active {
+        opacity: .4;
+        transition-duration: 0s;
+      }
     }
   }
 
@@ -166,7 +168,7 @@
       border: none;
       border-bottom: @tab-border-size solid transparent;
       border-radius: 0;
-      transform: scale(1);
+      opacity: 1;
       &::before {
         content: "\f052";
         display: inline-block;
