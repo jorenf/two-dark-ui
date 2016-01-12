@@ -235,17 +235,3 @@ atom-pane.active .tab.active:before {
   opacity: 1;
   transition-duration: .32s;
 }
-
-
-// Custom tabs --------------
-
-.tab-bar .tab.active {
-  &[data-type$="Editor"],
-  &[data-type="MarkdownPreviewView"] {
-    color: @tab-text-color-editor;
-    background-color: @tab-background-color-editor;
-    .title {
-      background-color: @tab-background-color-editor;
-    }
-  }
-}
