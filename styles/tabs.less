@@ -32,7 +32,6 @@
     margin: 0;
     background-clip: content-box;
     &.active {
-      border-radius: @component-border-radius*1.75 @component-border-radius*1.75 0 0;
       background-color: @tab-background-color-active;
     }
 
@@ -46,7 +45,6 @@
       left: 0;
       right: 0;
       height: inherit;
-      border-radius: @component-border-radius @component-border-radius 0 0;
       border: @tab-border;
       border-bottom-color: @tab-background-color-active;
       background-image: linear-gradient( hsla(0,0%,100,.02), hsla(0,0%,100,0) );
@@ -227,8 +225,6 @@
   left: @tab-border-size;
   bottom: @tab-border-size;
   width: 2px;
-  border-top-left-radius: inherit;
-  border-radius: @component-border-radius 0;
   background: @base-accent-color;
   opacity: 0;
   transition: opacity .16s;
