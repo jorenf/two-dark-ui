@@ -14,7 +14,7 @@ As well as change the __Font Size__ to scale the whole UI up or down.
 
 ### FAQ
 
-__Why do the colors change when I switch Syntax themes.__
-This UI theme uses the same background color as the choosen Syntax theme. In case that Syntax theme has a dark background color, it only uses its hue, but otherwise stays light. This lets you use light-dark combos.
+__Why do the colors change when I switch Syntax themes?__
+This UI theme uses the same background color as the chosen Syntax theme. In case that Syntax theme has a dark background color, it only uses its hue, but otherwise stays light. This lets you use light-dark combos.
 
 [1]: https://github.com/atom/one-light-ui
