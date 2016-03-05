@@ -2,6 +2,12 @@
 
 A fork of the [Atom One light UI theme][1].
 
+![llib](https://cloud.githubusercontent.com/assets/7543552/13548003/ae088110-e2ed-11e5-873b-9dc1f4df48b7.png)
+
+![dinc](https://cloud.githubusercontent.com/assets/7543552/13548005/ae099e6a-e2ed-11e5-832c-c7a56b1fe3ad.png)
+
+> Fonts: Liberation Mono and Inconsolata-dz. Icons by [file-icons](https://atom.io/packages/file-icons).
+
 ### Settings
 
 In the theme settings you can switch between 3 __Layout Modes__:
