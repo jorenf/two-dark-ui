@@ -1,14 +1,14 @@
 {
-  "name": "two-light-ui",
+  "name": "two-dark-ui",
   "theme": "ui",
   "version": "1.0.0",
-  "description": "Two light UI theme",
+  "description": "Two dark UI theme",
   "keywords": [
-    "light",
+    "dark",
     "adaptive",
     "ui"
   ],
-  "repository": "https://github.com/emlai/two-light-ui.git",
+  "repository": "https://github.com/emlai/two-dark-ui.git",
   "license": "MIT",
   "main": "lib/main",
   "engines": {

@@ -26,14 +26,14 @@ module.exports =
 
   activate: (state) ->
     # Handle settings changes
-    atom.config.onDidChange 'two-light-ui.fontSize', ->
-      setFontSize(atom.config.get('two-light-ui.fontSize'))
-    atom.config.onDidChange 'two-light-ui.layoutMode', ->
-      setLayoutMode(atom.config.get('two-light-ui.layoutMode'))
+    atom.config.onDidChange 'two-dark-ui.fontSize', ->
+      setFontSize(atom.config.get('two-dark-ui.fontSize'))
+    atom.config.onDidChange 'two-dark-ui.layoutMode', ->
+      setLayoutMode(atom.config.get('two-dark-ui.layoutMode'))
 
     # Initialize
-    setFontSize(atom.config.get('two-light-ui.fontSize'))
-    setLayoutMode(atom.config.get('two-light-ui.layoutMode'))
+    setFontSize(atom.config.get('two-dark-ui.fontSize'))
+    setLayoutMode(atom.config.get('two-dark-ui.layoutMode'))
 
   deactivate: ->
     unsetFontSize()
@@ -53,7 +53,7 @@ unsetFontSize = ->
 
 # Layout Mode -----------------------
 setLayoutMode = (layoutMode) ->
-  root.setAttribute('theme-two-light-ui-layoutmode', layoutMode.toLowerCase())
+  root.setAttribute('theme-two-dark-ui-layoutmode', layoutMode.toLowerCase())
 
 unsetLayoutMode = ->
-  root.removeAttribute('theme-two-light-ui-layoutmode')
+  root.removeAttribute('theme-two-dark-ui-layoutmode')
