@@ -21,5 +21,5 @@ As well as change the __Font Size__ to scale the whole UI up or down.
 __Why do the colors change when I switch Syntax themes?__
 This UI theme uses the same background color as the chosen Syntax theme. In case that Syntax theme has a light background color, it only uses its hue, but otherwise stays dark. This lets you use light-dark combos.
 
-[1]: https://github.com/emlai/two-dark-ui
+[1]: https://github.com/emlai/two-light-ui
 [2]: https://github.com/emlai/civic-syntax
