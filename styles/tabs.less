@@ -101,11 +101,11 @@
     &:hover .close-icon {
       opacity: 1;
       &:hover {
-        color: @base-accent-text-on-bg-color;
-        background-color: @base-accent-color;
+        background-color: @tab-border-color;
       }
       &:active {
-        background-color: fade(@base-accent-color, 50%);
+        color: lighten(@tab-border-color, 10%);
+        background-color: darken(@tab-border-color, 5%);
       }
       &::before {
         content: "\f05d"; // plus icon has a smaller weight
