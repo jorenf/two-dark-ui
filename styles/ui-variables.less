@@ -12,13 +12,13 @@
 .ui-hue() when (@ui-s-h > 0) { @ui-hue: @ui-s-h; }
 .ui-hue();
 
-@ui-saturation:   min( saturation(@ui-syntax-color), 13%); // max saturation
-@ui-lightness:    max(  lightness(@ui-syntax-color), 26.6%); // min lightness
+@ui-saturation:   min( saturation(@ui-syntax-color), 25%); // max saturation
+@ui-lightness:    min(  lightness(@ui-syntax-color), 20%); // min lightness
 
 // Main colors -----------------
 @ui-fg:     hsl(@ui-hue, @ui-saturation, @ui-lightness + 35%);
 @ui-bg:     hsl(@ui-hue, @ui-saturation, @ui-lightness); // normalized @syntax-background-color
-@ui-border: darken(@base-background-color, 3%);
+@ui-border: lighten(@base-background-color, 4%);
 
 
 
@@ -136,9 +136,9 @@
 
 
 // Background (Custom) -----------------
-@level-1-color: lighten(@base-background-color, 4%);
-@level-2-color: @base-background-color;
-@level-3-color: darken(@base-background-color, 8%);
+@level-1-color: lighten(@base-background-color, 12%);
+@level-2-color: lighten(@base-background-color, 8%);
+@level-3-color: @base-background-color;
 
 
 // Base (Custom) -----------------
