@@ -1,4 +1,4 @@
-Copyright (c) 2016 Emil Laine
+Copyright (c) 2016, 2017 Emil Laine
 
 This software is a modified version of the Atom One Light UI Theme
 (the "Original Software"), and is licensed under the same license as
